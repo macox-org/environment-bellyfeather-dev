@@ -1,0 +1,12 @@
+adminUser:
+  password: vault:bellyfeather/adminUser:password
+  username: admin
+dashboardUrl: https://example.com
+enableDocker: false
+pipelineUser:
+  email: arcalos-admin@googlegroups.com
+  token: vault:bellyfeather/pipelineUser:token
+  username: cloudbees-ci-cd-staging[bot]
+prow:
+  hmacToken: vault:bellyfeather/prow:hmacToken
+segmentWriteKey: vault:bellyfeather:segmentWriteKey
